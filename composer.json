@@ -7,7 +7,7 @@
             "email": "contact@ludovic-meurot.fr"
         }
     ],
-    "licence": "BSD-3-Clause",
+    "license": "BSD-3-Clause",
     "autoload": {
         "psr-4": {
             "Division\\Configurations\\": "src/",
