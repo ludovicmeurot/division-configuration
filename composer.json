@@ -1,5 +1,5 @@
 {
-    "name": "legend/configurations",
+    "name": "division/configurations",
     "description": "Gestion de configurations depuis une table de base de donn\u0000es",
     "autoload": {
         "psr-4": {
