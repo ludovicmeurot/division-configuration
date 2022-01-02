@@ -52,7 +52,7 @@ configuration(string $code)
 ```
 
 ### Depuis le modèle 
-Il est possible d'utiliser le modèle pour récupérer des configurations des manière plus complexe. 
+Il est possible d'utiliser le modèle pour récupérer des configurations de manière plus complexe. 
 
 ```php
 \Division\Configurations\Models\Configuration::where('code', 'configuration_1')->first())

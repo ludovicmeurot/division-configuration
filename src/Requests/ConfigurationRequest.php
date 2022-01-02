@@ -3,6 +3,7 @@
 namespace Division\Configurations\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
 class ConfigurationRequest extends FormRequest
 {
@@ -24,7 +25,7 @@ class ConfigurationRequest extends FormRequest
     public function rules()
     {
         return [
-            'code' => ['regex:/^[a-zA-Z0-9-_.]+$/'],
+            'code' => ['regex:/^[a-zA-Z0-9-_.]+$/', Rule::unique('configurations', 'code')->ignore($this->id)],
             'name' => ['required', 'min:2', 'string'],
             'value' => ['required', 'string']
         ];
