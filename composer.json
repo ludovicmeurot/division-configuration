@@ -1,0 +1,39 @@
+{
+    "name": "legend/configurations",
+    "description": "Gestion de configurations depuis une table de base de donn\u0000es",
+    "autoload": {
+        "psr-4": {
+            "Division\\Configurations\\": "src/",
+            "Division\\Configurations\\Database\\Factories\\": "database/factories/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Division\\Configurations\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test -f": "vendor/bin/phpunit --filter"
+    },
+    "authors": [
+        {
+            "name": "Ludovic Meurot",
+            "email": "contact@ludovic-meurot.fr"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "6.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Division\\Configurations\\ConfigurationsServiceProvider"
+            ]
+        }
+    }
+}
