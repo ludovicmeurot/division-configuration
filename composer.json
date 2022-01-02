@@ -1,5 +1,5 @@
 {
-    "name": "division/configurations",
+    "name": "division/configuration",
     "description": "Gestion de configurations pour laravel depuis une table de base de données",
     "authors": [
         {

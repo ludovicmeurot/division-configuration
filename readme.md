@@ -12,7 +12,7 @@ Laravel >= 8
 ## Installation
 
 ```shell
-composer require division/configurations
+composer require division/configuration
 ```
 
 Exécuter les migrations
