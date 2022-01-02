@@ -1,6 +1,6 @@
 {
     "name": "division/configurations",
-    "description": "Gestion de configurations pour laravel depuis une table de base de donn\u0000es",
+    "description": "Gestion de configurations pour laravel depuis une table de base de données",
     "authors": [
         {
             "name": "Ludovic Meurot",
