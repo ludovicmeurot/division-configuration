@@ -23,6 +23,17 @@ php artisan migrate
 
 ## Utilisation 
 
+Enregistrement d'une configuration
+
+```php
+\Division\Configurations\Models\Configuration::create([
+    'code' => 'configuration_1',
+    'name' => 'Configuration 1',
+    'description' => 'Description de ma configuration 1',
+    'value' => 'Valeur de ma configuration 1'
+]);
+```
+
 ### Helpers
 Pour simplifier l'utilisation des configuration, un helper est enregistré via composer
 pour être appelé depuis n'importe ou dans l'application. 
@@ -44,5 +55,5 @@ configuration(string $code)
 Il est possible d'utiliser le modèle pour récupérer des configurations des manière plus complexe. 
 
 ```php
-\Division\Configurations\Models\Configuration::where('code', 'code_de_ma_configuration')->first())
+\Division\Configurations\Models\Configuration::where('code', 'configuration_1')->first())
 ```
