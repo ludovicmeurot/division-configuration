@@ -17,10 +17,10 @@ class Configuration extends Model
     protected $fillable = ['code', 'name', 'description', 'value'];
 
     /**
-     * @return \Division\Configurations\Database\Factories\ExampleFactory
+     * @return \Division\Configurations\Database\Factories\ConfigurationFactory
      */
     protected static function newFactory ()
     {
-        return \Division\Configurations\Database\Factories\ExampleFactory::new();
+        return \Division\Configurations\Database\Factories\ConfigurationFactory::new();
     }
 }

@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Division\\Configurations\\ConfigurationsServiceProvider"
+                "ConfigurationServiceProvider"
             ]
         }
     }

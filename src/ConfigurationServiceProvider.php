@@ -4,7 +4,7 @@ namespace Division\Configurations;
 
 use Illuminate\Support\ServiceProvider;
 
-class ConfigurationsServiceProvider extends ServiceProvider
+class ConfigurationServiceProvider extends ServiceProvider
 {
     /**
      * Enregistrement des liaisons de classe dans le fournisseur de service

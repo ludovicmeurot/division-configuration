@@ -2,14 +2,14 @@
 
 namespace Division\Configurations\Tests;
 
-use Division\Configurations\ConfigurationsServiceProvider;
+use Division\Configurations\ConfigurationServiceProvider;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {
     protected function getPackageProviders($app)
     {
         return [
-            ConfigurationsServiceProvider::class
+            ConfigurationServiceProvider::class
         ];
     }
 
